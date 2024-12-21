@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins';
+    color: white;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #010010;
+    gap: 10px;
+}
+
+.container{
+    background-color: rgb(27, 27, 27);
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container h1{
+    font-size: 50px;
+}
+
+.container input[type="text"]{
+    padding: 10px;
+    font-size: 18px;
+    background-color: #424242;
+    border-radius: 10px;
+    border: none;
+}
+
+.container button{
+    background-color: rgb(128, 0, 255);
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    transition: 0.3s;
+}
+
+.container button:hover{
+    cursor: pointer;
+    background-color: rgb(98, 0, 255);
+}
+
+.input-container{
+    display: flex;
+    gap: 20px;
+}
+
+#weather-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#error-message{
+    color: red;
+}
+
+.hidden{
+    display: none;
+}
